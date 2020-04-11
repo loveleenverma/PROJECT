@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>cse326 project </title>
+<style>
+.main-container1{
+display:grid;
+grid-template-columns: 1520px 50px 50px  1520px;
+grid-template-rows:30px 50px 50px 30px;
+grid-gap:none;
+}
+.basic-format{
+padding:2px;
+background: #D3D3D3;
+text-align: middle;
+}
+.header{
+grid-column-start: 1;
+grid-column-end:2 ;
+grid-row-start:1;
+grid-row-end: 2;
+}
+.dot{
+height: 15px;
+width: 15px;
+background: #ff0000;
+border-radius:50%;
+display: inline-block;
+float:center-left;
+
+}
+.dot2
+{
+height: 15px;
+width: 15px;
+background: yellow;
+border-radius:50%;
+display: inline-block;
+float:center-left;
+
+}
+.dot3
+{
+height: 15px;
+width: 15px;
+background: green;
+border-radius:50%;
+display: inline-block;
+float:center-left;
+}
+.search
+{
+width:100%;
+postion:relative;
+display:flex;
+}
+.search-term{
+width:100%;
+border:2px solid grey;
+padding:5px;
+height:15px;
+border-radius:5px 5px 5px  5px;
+outline: none;
+color:grey;
+}
+.search-term:focus{
+color:black;
+}
+.wrap{
+width:30%;
+position:right;
+float:right;
+top:2%;
+right:2%;
+transform:translate(-100%, -6%);
+}
+.search-button{
+border-radius:5px 5px 5px 5px;}
+.menu{
+grid-column-start: 1;
+grid-column-end:2 ;
+grid-row-start:2;
+grid-row-end: 3;
+transform:translate(0%,50%);
+font-size:48px;
+color:white;
+font-family:calibri;
+background-color:transparent;
+
+}
+.modules{
+grid-column-start: 2;
+grid-column-end:3 ;
+grid-row-start:2;
+grid-row-end: 3;
+text-align:right;
+font-size:20px;
+color:white;
+font-family:calibri;
+background-color:transparent;
+transform:translate(-20%, -45%);
+}
+.center{
+grid-column-start: 1;
+grid-column-end:2 ;
+grid-row-start:3;
+grid-row-end: 4;
+transform:translate(0%, 0%);
+}
+
+img{
+text-align:center;
+width: 1520px;
+height: 700px;
+background:transparent;
+transform:translate(-0.2%, 1.3%);
+z-index:-1;
+position:absolute;
+left:0px;
+top:0px;
+}
+a{
+text-decoration:none;}
+a:link{
+color:white;}
+a:visited{
+color:white;
+}
+a:hover{
+color:hotpink;}
+a:active{
+color:blue;}
+.txt{
+color:white;
+font-size:78px;
+font-family:calibri;
+transform:translate(23%,20%);
+font-weight:bold;
+}
+.button1{
+height:50px;
+width:150px;
+color:white;
+font-size:18px;
+font-weight:bold;
+transform:translate(350%,250%);
+}
+.button2{
+height:50px;
+width:150px;
+font-size:18px;
+color:black;
+font-weight:bold;
+transform:translate(450%,250%);
+}
+</style>
+<meta name="viewport"
+content ="width=device-width, initial-scale="1.0"></meta>
+
+</head>
+<body>
+<div class="main-container1">
+<div class="basic-format header">
+<div class="dot"></div>
+<div class="dot2"></div>
+<div class="dot3"></div>
+<div class="wrap">
+<div class="search">
+<input type="text" class="search-term" placeholder="Search or enter website name">
+<input type="submit" class ="search-button" value="Search">
+<i class="fa fa-search"></i>
+</button>
+</div>
+</div>
+
+
+<div class = " center ">
+<img src = " https://assets.cdnpandadoc.com/app/uploads/templates/2014/02/Fotolia_99922774_Subscription_Monthly_M.jpg "><div class=" menu"><b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp FRAME </b>
+</div><div class=" modules "><b><a style="font-weight:bold" href="cse326project.html"> HOME </a>&nbsp <a style="font-weight:bold" href="features.html">FEATURES </a>&nbsp <a style="font-weight:bold" href="pricing.html">PRICING </a>&nbsp <a style="font-weight:bold" href="reviews.html" target="_blank"> REVIEWS</a> &nbsp </b><a style="font-weight:bold" href="contact.html" target="_blank">
+CONTACT</a></div><div class="txt">uicookies.com Creates High <br>Quality Bootstrap Template <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp For Free</div>
+
+<button style="background-color:blue; font-weight:bold;" class="button1" onclick=window.location.href="pricing.html">Get Them Now</button> <button style="background-color:transparent; font-weight:bold;" class="button2" onclick=window.location.href="features.html">See Features</button>
+
+</div>
+</div>
+</div>
+
+
+
+</body>
+</html> 
